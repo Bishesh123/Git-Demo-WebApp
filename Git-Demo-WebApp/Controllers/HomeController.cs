@@ -13,7 +13,12 @@ namespace Git_Demo_WebApp.Controllers
             _logger = logger;
         }
 
+
         public IActionResult Index()
+        {
+            return View();
+        }
+        public IActionResult About()
         {
             return View();
         }
