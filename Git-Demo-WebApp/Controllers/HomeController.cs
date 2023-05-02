@@ -23,6 +23,11 @@ namespace Git_Demo_WebApp.Controllers
             return View();
         }
 
+        public IActionResult Bishesh()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
